@@ -1,0 +1,64 @@
+loadoff PAA.lib
+#AP
+set AP.1.1 charge -0.422604
+set AP.1.2 charge 0.826051
+set AP.1.3 charge 0.349393
+set AP.1.4 charge -0.617591
+set AP.1.5 charge -0.65907
+set AP.1.6 charge 0.135253
+set AP.1.7 charge -0.032264
+set AP.1.8 charge -0.032264
+set AP.1.9 charge 0.453096
+##AD
+set AD.1.1 charge 0.174051
+set AD.1.2 charge 0.787692
+set AD.1.3 charge -0.505741
+set AD.1.4 charge -0.825165
+set AD.1.5 charge -0.825165
+set AD.1.6 charge -0.01441
+set AD.1.7 charge 0.104369
+set AD.1.8 charge 0.104369
+##AHP
+set AHP.1.1 charge -0.422604
+set AHP.1.2 charge 0.826051
+set AHP.1.3 charge 0.349393
+set AHP.1.4 charge -0.617591
+set AHP.1.5 charge -0.65907
+set AHP.1.6 charge 0.0676265
+set AHP.1.7 charge -0.032264
+set AHP.1.8 charge -0.032264
+set AHP.1.9 charge 0.453096
+set AHP.1.10 charge 0.0676265
+##AHD
+set AHD.1.1 charge 0.174051
+set AHD.1.2 charge 0.787692
+set AHD.1.3 charge -0.505741
+set AHD.1.4 charge -0.825165
+set AHD.1.5 charge -0.825165
+set AHD.1.6 charge -0.007205
+set AHD.1.7 charge 0.104369
+set AHD.1.8 charge 0.104369
+set AHD.1.9 charge -0.007205
+##ATP
+set ATP.1.1 charge -0.422604
+set ATP.1.2 charge 0.826051
+set ATP.1.3 charge 0.349393
+set ATP.1.4 charge -0.617591
+set ATP.1.5 charge -0.65907
+set ATP.1.6 charge 0.135253
+set ATP.1.7 charge -0.021509333
+set ATP.1.8 charge -0.021509333
+set ATP.1.9 charge 0.453096
+set ATP.1.10 charge -0.021509333
+##ATD
+set ATD.1.1 charge 0.174051
+set ATD.1.2 charge 0.787692
+set ATD.1.3 charge -0.505741
+set ATD.1.4 charge -0.825165
+set ATD.1.5 charge -0.825165
+set ATD.1.6 charge -0.01441
+set ATD.1.7 charge 0.069579333
+set ATD.1.8 charge 0.069579333
+set ATD.1.9 charge 0.069579333
+saveoff {AD AP AHP AHD ATP ATD} PAA7.lib
+quit

@@ -1,0 +1,23 @@
+-I: Adding /share/apps/amber/amber16/dat/leap/prep to search path.
+-I: Adding /share/apps/amber/amber16/dat/leap/lib to search path.
+-I: Adding /share/apps/amber/amber16/dat/leap/parm to search path.
+-I: Adding /share/apps/amber/amber16/dat/leap/cmd to search path.
+-s: Ignoring startup file: leaprc
+-f: Source changeCharge.in.
+
+Welcome to LEaP!
+Sourcing: ./changeCharge.in
+Loading library: ./PAA.lib
+ Creating PAAavg.lib
+Building topology.
+Building atom parameters.
+Building topology.
+Building atom parameters.
+Building topology.
+Building atom parameters.
+Building topology.
+Building atom parameters.
+Building topology.
+Building atom parameters.
+Building topology.
+Building atom parameters.

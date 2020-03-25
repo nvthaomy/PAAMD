@@ -1,0 +1,45 @@
+#Load FF after packing PAA and water with packmol
+source leaprc.gaff2
+source leaprc.water.spce
+loadOFF PAA.lib
+#turn on sac water by changing charges of H and O
+set SPC.1.3 charge 0.41 
+set SPC.1.2 charge 0.41 
+set SPC.1.1 charge -0.82 
+
+x=loadpdb AA22_f1_spc_w0.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.top AA22_f1_spc_w0.crd
+
+x=loadpdb AA22_f1_spc_w0.05.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.05.top AA22_f1_spc_w0.05.crd
+
+x=loadpdb AA22_f1_spc_w0.1.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.1.top AA22_f1_spc_w0.1.crd
+
+x=loadpdb AA22_f1_spc_w0.15.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.15.top AA22_f1_spc_w0.15.crd
+
+x=loadpdb AA22_f1_spc_w0.2.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.2.top AA22_f1_spc_w0.2.crd
+
+x=loadpdb AA22_f1_spc_w0.25.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.25.top AA22_f1_spc_w0.25.crd
+
+x=loadpdb AA22_f1_spc_w0.3.pdb
+addions x Na+ 0
+setbox x vdw 1
+saveamberparm x AA22_f1_spc_gaff2_w0.3.top AA22_f1_spc_w0.3.crd
+quit
+

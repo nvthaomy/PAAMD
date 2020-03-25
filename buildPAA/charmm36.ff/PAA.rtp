@@ -1,0 +1,137 @@
+[ AP ]
+  [ atoms ]   
+	CA  CG311  0.024977		0
+ 	CB  CG2O2  0.686146		1
+ 	CC  CG321 -0.222910		2
+ 	OD1 OG2D1 -0.534453		3
+ 	OD2 OG311 -0.571739		4
+ 	HA1 HGA1  0.041004		5
+ 	HC1 HGA2  0.070658		6
+ 	HC2 HGA2  0.070658		7
+	HO  HGP1  0.435659		8
+  [ bonds ]
+    CA    -CC
+    CA    CC
+    CA    HA1
+    CA    CB
+    CB    OD1
+    CB    OD2
+    OD2   HO
+    CC	 HC1
+    CC	 HC2
+    CC    +CA
+[ AD ]
+  [ atoms ]   
+	CA  CG311  0.024977		0
+ 	CB  CG2O3  0.658217		1
+ 	CC  CG321  -0.222910		2
+ 	OD1 OG2D2 -0.821302		3
+ 	OD2 OG2D2 -0.821302		4
+ 	HA1 HGA1  0.041004		5
+ 	HC1 HGA2  0.070658		6
+ 	HC2 HGA2  0.070658		7
+  [ bonds ]
+    CA    -CC
+    CA    CC
+    CA    HA1
+    CA    CB
+    CB    OD1
+    CB    OD2
+    CC	 HC1
+    CC	 HC2
+    CC    +CA
+[ AHP ]
+  [ atoms ]   
+	CA  CG321 -0.633215		0
+ 	CB  CG2O2 0.799796		1
+ 	CC  CG321 0.207957		2
+ 	OD1 OG2D1 -0.578635		3
+ 	OD2 OG311 -0.637141		4
+ 	HA1 HGA2  0.162962		5
+ 	HC1 HGA2  0.037602		6
+ 	HC2 HGA2  0.037602		7
+	HO  HGP1  0.440110		8
+ 	HA2 HGA2  0.162962		9
+  [ bonds ]
+    CA    -CC
+    CA    CC
+    CA    HA1
+    CA    CB
+    CB    OD1
+    CB    OD2
+    OD2   HO
+    CC	 HC1
+    CC	 HC2
+    CC    +CA
+    CA	 HA2
+
+[ AHD ]
+  [ atoms ]   
+	CA  CG321 -0.633215		0
+ 	CB  CG2O3  0.666734		1
+ 	CC  CG321  0.207957		2
+ 	OD1 OG2D2 -0.821302		3
+ 	OD2 OG2D2 -0.821302		4
+ 	HA1 HGA2  0.162962		5
+ 	HC1 HGA2  0.037602		6
+ 	HC2 HGA2  0.037602		7
+ 	HA2 HGA2  0.162962		8
+  [ bonds ]
+    CA    -CC
+    CA    CC
+    CA    HA1
+    CA    CB
+    CB    OD1
+    CB    OD2
+    CC	 HC1
+    CC	 HC2
+    CC    +CA
+    CA	 HA2
+
+[ ATP ]
+  [ atoms ]   
+	CA  CG311 0.226098		0
+ 	CB  CG2O2 0.665325		1
+ 	CC  CG331 -0.296702		2
+ 	OD1 OG2D1 -0.557727		3
+ 	OD2 OG311 -0.586712		4
+ 	HA1 HGA1  -0.139992		5
+ 	HC1 HGA3  0.090851		6
+ 	HC2 HGA3  0.090851		7
+	HO  HGP1 0.417157		8
+ 	HC3 HGA3 0.090851		9
+  [ bonds ]
+    CA    -CC
+    CA    CC
+    CA    HA1
+    CA    CB
+    CB    OD1
+    CB    OD2
+    OD2   HO
+    CC	 HC1
+    CC	 HC2
+    CC    +CA
+    CC	 HC3
+
+[ ATD ]
+  [ atoms ]   
+	CA  CG311 0.226098		0
+ 	CB  CG2O3 0.580647		1
+ 	CC  CG331 -0.296702		2
+ 	OD1 OG2D2 -0.821302		3
+ 	OD2 OG2D2 -0.821302		4
+ 	HA1 HGA1 -0.139992		5
+ 	HC1 HGA3  0.090851		6
+ 	HC2 HGA3  0.090851		7
+ 	HC3 HGA3  0.090851		8
+  [ bonds ]
+    CA    -CC
+    CA    CC
+    CA    HA1
+    CA    CB
+    CB    OD1
+    CB    OD2
+    CC	 HC1
+    CC	 HC2
+    CC    +CA
+    CC	 HC3

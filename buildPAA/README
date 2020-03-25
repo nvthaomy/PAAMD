@@ -1,0 +1,22 @@
+PAA.lib:gas phase
+	B3LYP/6-311++G(d,p), 8 points 7 rings
+	deprotonated monomers have same backbone charges as protonated
+	charges of head and tail monomers are from QM calculation of head and tail monomers 
+PAAavg.lib:gas phase
+        B3LYP/6-311++G(d,p), 8 points 7 rings
+	deprotonated monomers have same backbone charges as protonated
+	averaging charges over atom types 
+
+For below libraries
+	backbone charges are distinct between deprot and prot. monomers
+	charges of head and tail monomers are derived from the middle monomer, small adjustments on charges of HA or HC
+
+	lib#	QM level		Mesh	solvent
+	1	HF/6-31G*		1p4r	pcm
+	2	HF/6-31G*		1p4r	gas
+	3	HF/6-31G*		8p7r	pcm
+	4	HF/6-31G*		8p7r	gas
+	5	B3LYP/6-311++G(d,p)	1p4r	pcm
+	6	B3LYP/6-311++G(d,p)	1p4r	gas
+	7	B3LYP/6-311++G(d,p)	8p7r	pcm
+	8	B3LYP/6-311++G(d,p)	8p7r	gas
